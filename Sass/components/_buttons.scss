@@ -11,6 +11,18 @@
   font-size: 1.5rem;
   font-weight: 500;
 
+  
+  &:hover {
+    @include gradient-hover;
+    transform: translateY(-3px);
+    box-shadow: $shadow-1;
+
+    &:active {
+      transform: translateY(-1px);
+      box-shadow: $shadow-1;
+    }
+  }
+
   @include respond(tablet) {
     width: 35rem;
     font-size: 2.5rem;
@@ -34,17 +46,6 @@
   &:visited {
     display: inline-block;
     transition: all 0.2s;
-  }
-
-  &:hover {
-    @include gradient-hover;
-    transform: translateY(-3px);
-    box-shadow: $shadow-1;
-
-    &:active {
-      transform: translateY(-1px);
-      box-shadow: $shadow-1;
-    }
   }
 
   &__link {

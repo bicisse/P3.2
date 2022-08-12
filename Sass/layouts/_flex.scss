@@ -1,9 +1,12 @@
 .flex {
   display: flex;
 
+  //LOADING SPINNER
   &__spinner {
     gap: 1rem;
   }
+
+  //LOCATION
   &__location {
     gap: 2rem;
     justify-content: center;
@@ -13,7 +16,7 @@
       padding: 1rem;
     }
   }
-
+//HEADER
   &__header {
     display: block;
 
@@ -21,11 +24,12 @@
       display: flex;
     }
   }
+  //HERO
   &__hero {
     flex-direction: column;
     gap: 3rem;
   }
-
+//FONCTIONNEMENT
   &__fonctionnement {
     flex-direction: column;
     gap: 3rem;
@@ -41,6 +45,8 @@
     flex-direction: row;
     gap: 2rem;
   }
+
+  // CARDS RESTAURANT
   &__restaurant {
     flex-direction: column;
     gap: 2.5rem;
@@ -63,10 +69,11 @@
       }
     }
   }
+  // FOOTER
   &__footer {
     gap: 2rem;
   }
-
+// PAGES INDIVIDUELLES
   &__page-name {
     flex-direction: row;
     justify-content: space-between;
@@ -86,6 +93,7 @@
     }
   }
 
+  // PLATS
   &__course {
     flex-direction: column;
 

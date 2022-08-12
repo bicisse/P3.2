@@ -30,22 +30,3 @@
     }
   }
 }
-
-h2 {
-  font-size: 1.8rem;
-  font-weight: 300;
-  width: 91%;
-  line-height: normal;
-  @include respond(tablet) {
-    font-size: 3rem;
-    width: 80%;
-  }
-
-  @include respond(desktop) {
-    font-size: 3rem;
-  }
-  @include respond(desktop-big) {
-    font-size: 4rem;
-    width: 60%;
-  }
-}

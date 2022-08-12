@@ -10,7 +10,7 @@
   z-index: 3000;
   // Make the loading spinner disappear
   animation: disappearing 3s ease-out;
-  animation-fill-mode: forwards;
+  animation-fill-mode: backwards;
 
   &__center {
     position: absolute;
@@ -42,20 +42,7 @@
       }
     }
 
-    // &--outside {
-    //   animation: outside 1.8s linear infinite;
-    //   &-1 {
-    //     background-color: $tertiary-color;
-    //   }
-    //   &-2 {
-    //     background-color: $tertiary-color;
-    //     animation-delay: 0.3s;
-    //   }
-    //   &-3 {
-    //     background-color: $tertiary-color;
-    //     animation-delay: 0.6s;
-    //   }
-    // }
+
   }
   // Animations
   @keyframes inside {
@@ -86,8 +73,8 @@
     }
 
     100% {
-      opacity: 0%;
-      width: 0%;
+      opacity: 0;
+      width: 0;
     }
   }
 }

@@ -101,13 +101,8 @@
 
   //
   //
-  &__dish,
-  &__name,
-  &__dish,
-  &__side,
-  &__price,
-  &__icon,
-  &__checked {
+  
+  .dish {
     transition: all 0.3s ease-out;
   }
   &__name {
